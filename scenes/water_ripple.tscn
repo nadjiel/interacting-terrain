@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dtkag3gmsswul"]
+
+[ext_resource type="SpriteFrames" uid="uid://l70tvwryewnj" path="res://resources/water_ripple_sprite_frames.tres" id="1_dt72k"]
+
+[node name="WaterRipple" type="AnimatedSprite2D"]
+sprite_frames = ExtResource("1_dt72k")
+autoplay = "default"

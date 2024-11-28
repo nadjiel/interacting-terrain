@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://uv7mpk7igoe5"]
+
+[ext_resource type="Texture2D" uid="uid://ddwllpcdehopv" path="res://sprites/footprint.png" id="1_1fkxc"]
+[ext_resource type="Script" path="res://scripts/footprint.gd" id="2_ehvgx"]
+
+[node name="Footprint" type="Sprite2D"]
+texture = ExtResource("1_1fkxc")
+script = ExtResource("2_ehvgx")

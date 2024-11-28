@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cqnr0cmqqbn50"]
+
+[ext_resource type="SpriteFrames" uid="uid://tc5num5k2b65" path="res://resources/flying_leafs_sprite_frames.tres" id="1_3kt8w"]
+
+[node name="FlyingLeafs" type="AnimatedSprite2D"]
+sprite_frames = ExtResource("1_3kt8w")
+autoplay = "default"
