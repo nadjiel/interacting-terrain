@@ -7,6 +7,10 @@ var elements: Dictionary = {}
 func set_element(element: Variant) -> void:
 	elements[element] = true
 
+func set_elements(elements: Array) -> void:
+	for element: Variant in elements:
+		set_element(element)
+
 func has_element(element: Variant) -> bool:
 	return elements.has(element)
 
